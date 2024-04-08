@@ -1,0 +1,173 @@
+
+/* styles.css */
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    background-color:black;
+    color:whitesmoke;
+  }
+   .container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .logo {
+    display: flex;
+    align-items: center; /* Align logo image and text vertically */
+  }
+   .logo img {
+    max-height: 40px; /* Adjust the max-height as needed */
+    margin-right: 10px; /* Add some space between the logo image and text */
+  }
+  .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0; /* Remove any default margin */
+  }
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 20px; /* Add padding to create boxes */
+  background-color: lightgray;
+  }
+  .nav-links li a {
+    text-decoration: none;
+    color:black;
+  }
+ .nav-links li a:hover {
+ text-decoration: underline;
+  }
+  .home-header {
+    background-image: url('images/bg4.jpg'); /* Replace 'header-background.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+    color:black;
+    text-align: center;
+    padding: 200px 0; /* Adjust padding for header content spacing */
+  }
+   .home-header .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+   .home-header h1{
+    font-size:50px;
+    padding-top:50px;
+}
+
+  .home-header p{
+    font-size:20px;
+  }
+  .home-header a{
+    padding: 12px 30px;
+      border-radius: 4px;
+      outline: none;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      letter-spacing: 1px;
+      transition: all 0.5s ease;
+    }
+  .home-header .btnone{
+    background: white;
+    color: black;
+}
+  .btnone:hover{
+    background: lightskyblue;
+    color:black;
+  }
+  .activity {
+   margin-top:20px;
+    position: relative; /* Ensure relative positioning for the background image */
+    background-size:100% 100%;
+    background-position: center;
+    padding: 100px 0; /* Adjust padding as needed */
+  }
+#meditation.activity h2 {
+    color: whitesmoke; /* Change the color of the h2 heading */
+  }
+  #meditation.activity h2 {
+    font-size: 100px; /* Increase the font size of the h2 heading */
+  }
+  #meditation.activity h2
+ {
+  padding-left: 20px; /* Adjust the padding as needed */
+}
+#meditation.activity p {
+  padding-left: 25px; /* Adjust the padding as needed */
+}
+#books.activity h2{
+  color:white;
+  font-size: 100px;
+  padding-left:20px ;
+  }
+#books.activity p{
+font-size: 20px;
+  padding-left: 25px;
+}
+#yoga.activity h2 {
+  color: whitesmoke; /* Change the color of the h2 heading */
+}
+#yoga.activity h2 {
+  font-size: 100px; /* Increase the font size of the h2 heading */
+}
+#yoga.activity h2
+{
+padding-left: 20px; /* Adjust the padding as needed */
+}
+#yoga.activity p {
+padding-left: 25px; /* Adjust the padding as needed */
+}
+.activity p {
+  font-size: 20px;
+    color:whitesmoke;
+}.cta-button {
+    display:block;
+    width: 200px;
+    margin: 0 auto;
+    background-color:aqua;
+    color:black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.cta-button:hover {
+    background-color:skyblue;
+}
+.cta-button {
+  position:absolute; /* Position the button relative to the viewport */
+  top: 70%; /* Place the button vertically at 50% from the top */
+  right: 20px; /* Place the button 20px from the right side */
+  transform: translateY(-50%); /* Center the button vertically */
+}
+#yoga .cta-button{
+  background-color: skyblue;
+}
+#yoga .cta-button:hover {
+  background-color:blanchedalmond;
+}
+#books .cta-button{
+  background-color:orange;
+}
+#books .cta-button:hover {
+  background-color:skyblue;
+}
+footer {
+    background-color:lightskyblue;
+    color:black;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
